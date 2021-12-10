@@ -1,3 +1,4 @@
+const PORT = process.env.PORT || 3000;
 var http = require('http');
 var fs = require('fs');
 var qs = require('querystring');
@@ -73,4 +74,4 @@ http.createServer(function (req, res) {
     }
     // res.end();
 
-}).listen(8080);
+}).listen(PORT);
