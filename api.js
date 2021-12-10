@@ -2,7 +2,7 @@ var http = require('http');
 var fs = require('fs');
 var qs = require('querystring');
 const MongoClient = require('mongodb').MongoClient;
-const url = "mongodb+srv://victor_01:hola123@cluster0.qmwae.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
+const url = "";
   
 var output = "out";
 
