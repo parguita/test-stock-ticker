@@ -1,0 +1,25 @@
+{
+  "name": "test-stock-ticker",
+  "version": "1.0.0",
+  "description": "This is an app for the stock ticker",
+  "main": "app.js",
+  "dependencies": {
+    "mongodb": "^4.2.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start" : "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/parguita/test-stock-ticker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/parguita/test-stock-ticker/issues"
+  },
+  "homepage": "https://github.com/parguita/test-stock-ticker#readme"
+}
