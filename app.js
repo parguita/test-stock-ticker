@@ -4,7 +4,7 @@ var fs = require('fs');
 var qs = require('querystring');
 var urlObj = require('url');
 const MongoClient = require('mongodb').MongoClient;
-const url = "mongodb+srv://victor_01:hola123@cluster0.qmwae.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
+const url = "mongodb+srv://user:db@url";
   
 var output = "out";
 
